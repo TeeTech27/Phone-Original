@@ -6,3 +6,4 @@ function Company(name, namthanhlap){
 Company.prototype.addMember = function(people){
     this.Members.push(people);
 }
+module.exports = Company;
